@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- More Meta Tags For SEO-->
+    <title>IT Basic Curriculum</title>
+    <style>
+        img {
+            width: 200px; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+<nav> 
+    <ul>
+        <li><img src="images/Logo.png" alt="Logo"></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Basics.html">Basics</a></li>
+        <li><a href="Certification.html">Certification</a></li>
+        <li><a href="Study.html">Study Tools</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</nav>
+<h1>IT Networking Basics</h1>
+<img src="images/Basics.jpg" alt="Hero Banner">
+
+<main>
+<section>
+    <img src="images/OSIModel.jpg" alt="OSI Model">
+    <h1>OSI Model</h1>
+    <p>The OSI (Open Systems Interconnection) model is the foundation for data communication across networks. 
+        Consisting of seven layers, the model breaks down the complex process needed to exchange information across multiple systems. 
+        Each layer of the OSI model serves a specific function in the communication process. 
+        By giving each process a specific layer, we now have a standard framework to establish connections between systems. 
+        Understanding this model is essential for network administrators and engineers for design, implementation, and troubleshooting.</p>
+    <section>
+        <h2>Physical</h2>
+        <p>This Layer is the physical sending of data over the network. 
+            This includes cables, plugs, and connectors. 
+            This layer also determines the ones and zeros in a computer depending on whether there is or isn't an electrical signal.</p>
+        <h2>Data Link</h2>
+        <p>This is where communication between devices is created and maintained. 
+            Through addressing and synchronization, devices can connect to one another while ensuring data integrity.</p>
+        <h2>Network</h2>
+        <p>The network layer can be considered the organization system for which data is sent. 
+            By breaking up segments of data called network packets, and then reassembling them once the data is received by the other system, 
+            devices are now able to breakdown and rebuild network packets.</p>
+        <h2>Transport</h2>
+        <p>The transport layer is responsible for sending data from one device to another. 
+            It is also responsible for sending that data at a rate of speed that the device receiving the data can accurately handle.</p>
+        <h2>Session</h2>
+        <p>The session Layer creates communication using something called sessions between devices. It is also responsible for maintaining and closing this session, this allows the devices to begin transferring data to one another. This layer can also set points where transfers can be recovered if the transfer were to fail.</p>
+        <h2>Presentation</h2>
+        <p>This layer is responsible for taking data from the application layer, and presenting it to use for the session later. If this layer did not exist, the application layer would not be able to communicate with the session layer.</p>
+        <h2>Application</h2>
+        <p>This is the layer that works directly with user applications, by providing protocols, it allows the software to exchange information that users can then analyze.</p>
+    </section>
+</section>
+
+<section>
+    <p>Want To Keep Up With Current Technologies? Subscribe To Keep Updated With Our Weekly Newsletter.</p>
+    <a href="Contact.html" target="_blank">
+        <button type="button">Subscribe</button>
+    </a>
+</section>
+
+<section>
+    <img src="images/TypeODevices.jpg" alt="Networking Devices">
+    <h1>Networking Devices</h1>
+    <p>These devices are hardware that allows us to facilitate connections and exchanges of data in a network. 
+        Without these devices, it would be nearly impossible to do any type of data exchange over the network.
+         They serve as the backbone of networking infrastructure to allow devices to communicate with each other.</p>
+    <section>
+        <h2>Router</h2>
+        <p>The router is the central device for the network. 
+            This device directs traffic between networks, 
+            while also figuring out which path is best to make sure packets make it to their destination. 
+            It is important to note that routers can establish a local connection or connections across multiple locations.</p>
+        <h2>Modem</h2>
+        <p>Also known as a Modulator and Demodulator, 
+            the modem connects your home to the internet through a physical cable. 
+            The modem also takes data from your internet provider and then changes it to allow your devices to connect to it.</p>
+        <h2>Switch</h2>
+        <p>A switch is a device that takes traffic input, 
+            and then redirects traffic to your local devices. Overall, it allows devices like computers, 
+            printers, and servers to connect within a local area network (LAN).</p>
+        <h2>Access Point</h2>
+        <p>This is the hardware that allows you to connect your devices over WiFi. 
+            By connection to a router, switch, or hub, the access point can project a WiFi signal that is then detected by your devices. 
+            This is a create solution if you can't physically connect your device to a router.</p>
+    </section>
+</section>
+
+<section>
+    <img src="images/TypeONetwork.jpg" alt="Types of Networks">
+    <h2>Types of Networks</h2>
+    <p>Depending on your needs, you can choose different types of networks that are differentiated by their sizes, overall scope, and connectivity.  Whether is a small office or across multiple branches of a company, choosing the right network size is important to meet the needs of the user.</p>
+    <section>
+        <h2>Local Area Network (LAN)</h2>
+        <p>This is the smallest network. It consists of devices that are connected locally such as an office or home.</p>
+        <h2>Wide Local Area Network (WLAN)</h2>
+        <p>Another form of local area network that is connected together wirelessly instead of physically.</p>
+        <h2>Wide Area Network (WAN)</h2>
+        <p>Wide Area Network is a cluster of local area networks that communicate. You are using a WAN right now to read this as the internet is a WAN!</p>
+        <h2>Metropolitan Area Network (MAN)</h2>
+        <p>Bigger than a singular LAN but geographically located like a city or multiple towns. While this network is large, it is smaller than a WAN.</p>
+        <h2>Campus Area Network (CAN)</h2>
+        <p>Bigger than a LAN but smaller than a MAN. This network connects multiple devices together within a large property.</p>
+    </section>
+</section>
+</main>
+
+<footer>
+    <div>
+        <img src="images/InstaLogo.jpg" alt="Instagram">
+    </div>
+    <div>
+        <img src="images/XLogo.jpg" alt="X">
+    </div>
+    <div>
+        <img src="images/FacebookLogo.jpg" alt="Facebook">
+    </div>
+    <p><span>&copy;</span> 2024 Connectech inc.</p>
+</footer>
+</body>
+</html>
